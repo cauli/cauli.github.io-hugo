@@ -1,0 +1,47 @@
+baseURL = "http://cau.li/"
+languageCode = "en-us"
+title = "Cauli Tomaz"
+theme="archie"
+publishDir="../cauli.github.io"
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+[params]
+	mode="light" # color-mode → light,dark or auto
+	featherIconsCDN=true
+	subtitle = "—"
+
+[[params.social]]
+name = "github"
+icon = "github"
+url = "https://github.com/cauli"
+
+[[params.social]]
+name = "linkedin"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/caulitomaz/"
+
+[[params.social]]
+name = "instagram"
+icon = "instagram"
+url = "https://www.instagram.com/cauli.tomaz/"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
